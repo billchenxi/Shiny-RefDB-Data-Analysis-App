@@ -1,0 +1,1470 @@
+{
+	"version" : 1,
+	"platform" : "3.1.2",
+	"packages" : {
+		"shiny" : {
+			"description" : {
+				"Package" : "shiny",
+				"Type" : "Package",
+				"Title" : "Web Application Framework for R",
+				"Version" : "0.11.1.9006",
+				"Date" : "2015-05-01",
+				"Authors@R" : "c(\n    person(\"Winston\", \"Chang\", role = c(\"aut\", \"cre\"), email = \"winston@rstudio.com\"),\n    person(\"Joe\", \"Cheng\", role = \"aut\", email = \"joe@rstudio.com\"),\n    person(\"JJ\", \"Allaire\", role = \"aut\", email = \"jj@rstudio.com\"),\n    person(\"Yihui\", \"Xie\", role = \"aut\", email = \"yihui@rstudio.com\"),\n    person(\"Jonathan\", \"McPherson\", role = \"aut\", email = \"jonathan@rstudio.com\"),\n    person(family = \"RStudio\", role = \"cph\"),\n    person(family = \"jQuery Foundation\", role = \"cph\",\n    comment = \"jQuery library and jQuery UI library\"),\n    person(family = \"jQuery contributors\", role = c(\"ctb\", \"cph\"),\n    comment = \"jQuery library; authors listed in inst/www/shared/jquery-AUTHORS.txt\"),\n    person(family = \"jQuery UI contributors\", role = c(\"ctb\", \"cph\"),\n    comment = \"jQuery UI library; authors listed in inst/www/shared/jqueryui/1.10.4/AUTHORS.txt\"),\n    person(\"Mark\", \"Otto\", role = \"ctb\",\n    comment = \"Bootstrap library\"),\n    person(\"Jacob\", \"Thornton\", role = \"ctb\",\n    comment = \"Bootstrap library\"),\n    person(family = \"Bootstrap contributors\", role = \"ctb\",\n    comment = \"Bootstrap library\"),\n    person(family = \"Twitter, Inc\", role = \"cph\",\n    comment = \"Bootstrap library\"),\n    person(\"Alexander\", \"Farkas\", role = c(\"ctb\", \"cph\"),\n    comment = \"html5shiv library\"),\n    person(\"Scott\", \"Jehl\", role = c(\"ctb\", \"cph\"),\n    comment = \"Respond.js library\"),\n    person(\"Stefan\", \"Petre\", role = c(\"ctb\", \"cph\"),\n    comment = \"Bootstrap-datepicker library\"),\n    person(\"Andrew\", \"Rowls\", role = c(\"ctb\", \"cph\"),\n    comment = \"Bootstrap-datepicker library\"),\n    person(\"Dave\", \"Gandy\", role = c(\"ctb\", \"cph\"),\n    comment = \"Font-Awesome font\"),\n    person(\"Brian\", \"Reavis\", role = c(\"ctb\", \"cph\"),\n    comment = \"selectize.js library\"),\n    person(\"Kristopher Michael\", \"Kowal\", role = c(\"ctb\", \"cph\"),\n    comment = \"es5-shim library\"),\n    person(family = \"es5-shim contributors\", role = c(\"ctb\", \"cph\"),\n    comment = \"es5-shim library\"),\n    person(\"Denis\", \"Ineshin\", role = c(\"ctb\", \"cph\"),\n    comment = \"ion.rangeSlider library\"),\n    person(family = \"SpryMedia Limited\", role = c(\"ctb\", \"cph\"),\n    comment = \"DataTables library\"),\n    person(\"John\", \"Fraser\", role = c(\"ctb\", \"cph\"),\n    comment = \"showdown.js library\"),\n    person(\"John\", \"Gruber\", role = c(\"ctb\", \"cph\"),\n    comment = \"showdown.js library\"),\n    person(\"Ivan\", \"Sagalaev\", role = c(\"ctb\", \"cph\"),\n    comment = \"highlight.js library\"),\n    person(family = \"R Core Team\", role = c(\"ctb\", \"cph\"),\n    comment = \"tar implementation from R\")\n    )",
+				"Description" : "Makes it incredibly easy to build interactive web\n    applications with R. Automatic \"reactive\" binding between inputs and\n    outputs and extensive pre-built widgets make it possible to build\n    beautiful, responsive, and powerful applications with minimal effort.",
+				"License" : "GPL-3 | file LICENSE",
+				"Depends" : "\nR (>= 3.0.0)",
+				"Imports" : "\nutils,\nhttpuv (>= 1.3.2),\nmime (>= 0.3),\njsonlite (>= 0.9.16),\nxtable,\ndigest,\nhtmltools (>= 0.2.6),\nR6 (>= 2.0)",
+				"Suggests" : "\ndatasets,\nCairo (>= 1.5-5),\ntestthat,\nknitr (>= 1.6),\nmarkdown,\nggplot2",
+				"URL" : "http://shiny.rstudio.com",
+				"BugReports" : "https://github.com/rstudio/shiny/issues",
+				"Collate" : "\n'app.R'\n'bootstrap-layout.R'\n'map.R'\n'globals.R'\n'utils.R'\n'bootstrap.R'\n'cache.R'\n'fileupload.R'\n'stack.R'\n'graph.R'\n'hooks.R'\n'html-deps.R'\n'htmltools.R'\n'image-interact-opts.R'\n'image-interact.R'\n'imageutils.R'\n'jqueryui.R'\n'middleware-shiny.R'\n'middleware.R'\n'priorityqueue.R'\n'progress.R'\n'react.R'\n'reactive-domains.R'\n'reactives.R'\n'render-plot.R'\n'run-url.R'\n'server.R'\n'shiny.R'\n'shinyui.R'\n'shinywrappers.R'\n'showcase.R'\n'slider.R'\n'tar.R'\n'timer.R'\n'update-input.R'",
+				"RemoteType" : "github",
+				"RemoteHost" : "api.github.com",
+				"RemoteRepo" : "shiny",
+				"RemoteUsername" : "rstudio",
+				"RemoteRef" : "master",
+				"RemoteSha" : "a69dbeb10fc3521609204f1a4240c5ca81148e41",
+				"GithubRepo" : "shiny",
+				"GithubUsername" : "rstudio",
+				"GithubRef" : "master",
+				"GithubSHA1" : "a69dbeb10fc3521609204f1a4240c5ca81148e41",
+				"Author" : "Winston Chang [aut, cre],\n  Joe Cheng [aut],\n  JJ Allaire [aut],\n  Yihui Xie [aut],\n  Jonathan McPherson [aut],\n  RStudio [cph],\n  jQuery Foundation [cph] (jQuery library and jQuery UI library),\n  jQuery contributors [ctb, cph] (jQuery library; authors listed in\n    inst/www/shared/jquery-AUTHORS.txt),\n  jQuery UI contributors [ctb, cph] (jQuery UI library; authors listed in\n    inst/www/shared/jqueryui/1.10.4/AUTHORS.txt),\n  Mark Otto [ctb] (Bootstrap library),\n  Jacob Thornton [ctb] (Bootstrap library),\n  Bootstrap contributors [ctb] (Bootstrap library),\n  Twitter, Inc [cph] (Bootstrap library),\n  Alexander Farkas [ctb, cph] (html5shiv library),\n  Scott Jehl [ctb, cph] (Respond.js library),\n  Stefan Petre [ctb, cph] (Bootstrap-datepicker library),\n  Andrew Rowls [ctb, cph] (Bootstrap-datepicker library),\n  Dave Gandy [ctb, cph] (Font-Awesome font),\n  Brian Reavis [ctb, cph] (selectize.js library),\n  Kristopher Michael Kowal [ctb, cph] (es5-shim library),\n  es5-shim contributors [ctb, cph] (es5-shim library),\n  Denis Ineshin [ctb, cph] (ion.rangeSlider library),\n  SpryMedia Limited [ctb, cph] (DataTables library),\n  John Fraser [ctb, cph] (showdown.js library),\n  John Gruber [ctb, cph] (showdown.js library),\n  Ivan Sagalaev [ctb, cph] (highlight.js library),\n  R Core Team [ctb, cph] (tar implementation from R)",
+				"Maintainer" : "Winston Chang <winston@rstudio.com>",
+				"Built" : "R 3.1.2; ; 2015-05-17 22:49:35 UTC; unix"
+			}
+		},
+		"nortest" : {
+			"description" : {
+				"Package" : "nortest",
+				"Title" : "Tests for Normality",
+				"Version" : "1.0-3",
+				"Date" : "2015-02-26",
+				"Description" : "Five omnibus tests for testing the composite hypothesis of\n        normality.",
+				"License" : "GPL (>= 2)",
+				"Authors@R" : "c(person(\"Juergen\", \"Gross\", role = \"aut\", email = \"gross@statistik.tu-dortmund.de\"),\n\tperson(\"Uwe\", \"Ligges\", role = c(\"aut\", \"cre\"), email = \"ligges@statistik.tu-dortmund.de\"))",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2015-02-26 18:05:09 UTC; ligges",
+				"Author" : "Juergen Gross [aut],\n  Uwe Ligges [aut, cre]",
+				"Maintainer" : "Uwe Ligges <ligges@statistik.tu-dortmund.de>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2015-02-26 23:45:15",
+				"Built" : "R 3.1.3; ; 2015-02-27 05:57:36 UTC; unix"
+			}
+		},
+		"ggplot2" : {
+			"description" : {
+				"Package" : "ggplot2",
+				"Type" : "Package",
+				"Title" : "An Implementation of the Grammar of Graphics",
+				"Version" : "1.0.1",
+				"Authors@R" : "c(\n    person(\"Hadley\", \"Wickham\", role = c(\"aut\", \"cre\"), email = \"h.wickham@gmail.com\"),\n    person(\"Winston\", \"Chang\", role = \"aut\", email = \"winston@stdout.org\")\n    )",
+				"Description" : "An implementation of the grammar of graphics\n    in R. It combines the advantages of both base and\n    lattice graphics: conditioning and shared axes are\n    handled automatically, and you can still build up a\n    plot step by step from multiple data sources. It also\n    implements a sophisticated multidimensional\n    conditioning system and a consistent interface to map\n    data to aesthetic attributes. See http://ggplot2.org\n    for more information, documentation and examples.",
+				"Depends" : "R (>= 2.14), stats, methods",
+				"Imports" : "plyr (>= 1.7.1), digest, grid, gtable (>= 0.1.1), reshape2,\nscales (>= 0.2.3), proto, MASS",
+				"Suggests" : "quantreg, Hmisc, mapproj, maps, hexbin, maptools, multcomp,\nnlme, testthat, knitr, mgcv",
+				"VignetteBuilder" : "knitr",
+				"Enhances" : "sp",
+				"License" : "GPL-2",
+				"URL" : "http://ggplot2.org, https://github.com/hadley/ggplot2",
+				"BugReports" : "https://github.com/hadley/ggplot2/issues",
+				"LazyData" : "true",
+				"Collate" : "'aaa-.r' 'aaa-constants.r' 'aes-calculated.r'\n'aes-colour-fill-alpha.r' 'aes-group-order.r'\n'aes-linetype-size-shape.r' 'aes-position.r' 'aes.r' 'geom-.r'\n'annotation-custom.r' 'annotation-logticks.r' 'geom-polygon.r'\n'geom-map.r' 'annotation-map.r' 'geom-raster.r'\n'annotation-raster.r' 'annotation.r' 'autoplot.r' 'bench.r'\n'coord-.r' 'coord-cartesian-.r' 'coord-fixed.r' 'coord-flip.r'\n'coord-map.r' 'coord-munch.r' 'coord-polar.r'\n'coord-quickmap.R' 'coord-transform.r' 'facet-.r'\n'facet-grid-.r' 'facet-labels.r' 'facet-layout.r'\n'facet-locate.r' 'facet-null.r' 'facet-viewports.r'\n'facet-wrap.r' 'fortify-lm.r' 'fortify-map.r'\n'fortify-multcomp.r' 'fortify-spatial.r' 'fortify.r'\n'geom-abline.r' 'geom-bar-.r' 'geom-bar-histogram.r'\n'geom-bin2d.r' 'geom-blank.r' 'geom-boxplot.r'\n'geom-crossbar.r' 'geom-defaults.r' 'geom-dotplot.r'\n'geom-error.r' 'geom-errorh.r' 'geom-freqpoly.r' 'geom-hex.r'\n'geom-hline.r' 'geom-linerange.r' 'geom-path-.r'\n'geom-path-contour.r' 'geom-path-density2d.r'\n'geom-path-line.r' 'geom-path-step.r' 'geom-point-.r'\n'geom-point-jitter.r' 'geom-pointrange.r' 'geom-quantile.r'\n'geom-rect.r' 'geom-ribbon-.r' 'geom-ribbon-density.r'\n'geom-rug.r' 'geom-segment.r' 'geom-smooth.r' 'geom-text.r'\n'geom-tile.r' 'geom-violin.r' 'geom-vline.r' 'ggplot2.r'\n'grob-absolute.r' 'grob-dotstack.r' 'grob-null.r'\n'guide-colorbar.r' 'guide-legend.r' 'guides-.r' 'guides-axis.r'\n'guides-grid.r' 'labels.r' 'layer.r' 'limits.r' 'panel.r'\n'plot-build.r' 'plot-construction.r' 'plot-last.r'\n'plot-render.r' 'plot.r' 'position-.r' 'position-collide.r'\n'position-dodge.r' 'position-fill.r' 'position-identity.r'\n'position-jitter.r' 'position-jitterdodge.R' 'position-stack.r'\n'quick-plot.r' 'save.r' 'scale-.r' 'scale-alpha.r'\n'scale-area.r' 'scale-brewer.r' 'scale-continuous.r'\n'scale-date.r' 'scale-datetime.r' 'scale-discrete-.r'\n'scale-gradient.r' 'scale-gradient2.r' 'scale-gradientn.r'\n'scale-grey.r' 'scale-hue.r' 'scale-identity.r'\n'scale-linetype.r' 'scale-manual.r' 'scale-shape.r'\n'scale-size.r' 'scales-.r' 'stat-.r' 'stat-bin.r'\n'stat-bin2d.r' 'stat-bindot.r' 'stat-binhex.r' 'stat-boxplot.r'\n'stat-contour.r' 'stat-density-2d.r' 'stat-density.r'\n'stat-ecdf.r' 'stat-ellipse.R' 'stat-function.r'\n'stat-identity.r' 'stat-qq.r' 'stat-quantile.r'\n'stat-smooth-methods.r' 'stat-smooth.r' 'stat-spoke.r'\n'stat-sum.r' 'stat-summary-2d.r' 'stat-summary-hex.r'\n'stat-summary.r' 'stat-unique.r' 'stat-vline.r'\n'stat-ydensity.r' 'summary.r' 'templates.r' 'theme-defaults.r'\n'theme-elements.r' 'theme.r' 'translate-qplot-base.r'\n'translate-qplot-ggplot.r' 'translate-qplot-gpl.r'\n'translate-qplot-lattice.r' 'utilities-break.r'\n'utilities-grid.r' 'utilities-help.r' 'utilities-layer.r'\n'utilities-matrix.r' 'utilities-resolution.r'\n'utilities-table.r' 'utilities.r' 'xxx-digest.r' 'zxx.r'\n'zzz.r'",
+				"Packaged" : "2015-03-16 20:29:42 UTC; winston",
+				"Author" : "Hadley Wickham [aut, cre],\n  Winston Chang [aut]",
+				"Maintainer" : "Hadley Wickham <h.wickham@gmail.com>",
+				"NeedsCompilation" : "no",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2015-03-17 17:49:38",
+				"Built" : "R 3.1.3; ; 2015-03-18 05:07:10 UTC; unix"
+			}
+		},
+		"shinythemes" : {
+			"description" : {
+				"Package" : "shinythemes",
+				"Title" : "Themes for Shiny",
+				"Version" : "1.0.1",
+				"Authors@R" : "c(\n    person(\"Winston\", \"Chang\", role = c(\"aut\", \"cre\"), email = \"winston@rstudio.com\"),\n    person(family = \"RStudio\", role = \"cph\"),\n    person(\"Thomas\", \"Park\", role = c(\"ctb\", \"cph\"), comment = \"Bootswatch themes\"),\n    person(\"Lukasz\", \"Dziedzic\", role = c(\"ctb\", \"cph\"), comment = \"Lato font\"),\n    person(\"Nathan\", \"Willis\", role = c(\"ctb\", \"cph\"), comment = \"News Cycle font\"),\n    person(family = \"Google Corporation\", role = c(\"ctb\", \"cph\"), comment = \"Open Sans font\"),\n    person(\"Matt\", \"McInerney\", role = c(\"ctb\", \"cph\"), comment = \"Raleway font\"),\n    person(family = \"Adobe Systems Incorporated\", role = c(\"ctb\", \"cph\"), comment = \"Source Sans Pro font\"),\n    person(family = \"Canonical Ltd\", role = c(\"ctb\", \"cph\"), comment = \"Ubuntu font\")\n    )",
+				"Description" : "Themes for use with Shiny. Includes several Bootstrap themes\n    from http://bootswatch.com/, which are packaged for use with Shiny\n    applications.",
+				"Depends" : "R (>= 3.0.0)",
+				"Imports" : "shiny (>= 0.11)",
+				"License" : "GPL-3 | file LICENSE",
+				"Packaged" : "2015-03-02 22:16:55 UTC; winston",
+				"Author" : "Winston Chang [aut, cre],\n  RStudio [cph],\n  Thomas Park [ctb, cph] (Bootswatch themes),\n  Lukasz Dziedzic [ctb, cph] (Lato font),\n  Nathan Willis [ctb, cph] (News Cycle font),\n  Google Corporation [ctb, cph] (Open Sans font),\n  Matt McInerney [ctb, cph] (Raleway font),\n  Adobe Systems Incorporated [ctb, cph] (Source Sans Pro font),\n  Canonical Ltd [ctb, cph] (Ubuntu font)",
+				"Maintainer" : "Winston Chang <winston@rstudio.com>",
+				"NeedsCompilation" : "no",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2015-03-03 00:51:43",
+				"Built" : "R 3.1.3; ; 2015-03-03 08:01:53 UTC; unix"
+			}
+		},
+		"shinydashboard" : {
+			"description" : {
+				"Package" : "shinydashboard",
+				"Title" : "Create Dashboards with 'Shiny'",
+				"Version" : "0.4.0",
+				"Authors@R" : "c(\n    person(\"Winston\", \"Chang\", role = c(\"aut\", \"cre\"), email = \"winston@rstudio.com\"),\n    person(family = \"RStudio\", role = \"cph\"),\n    person(family = \"Almasaeed Studio\", role = c(\"ctb\", \"cph\")),\n    person(family = \"Adobe Systems Incorporated\", role = c(\"ctb\", \"cph\"), comment = \"Source Sans Pro font\")\n    )",
+				"Description" : "Create dashboards with 'Shiny'. This package provides\n  a theme on top of 'Shiny', making it easy to create attractive dashboards.",
+				"URL" : "http://rstudio.github.io/shinydashboard/",
+				"Depends" : "R (>= 3.0)",
+				"License" : "GPL-2 | file LICENSE",
+				"Imports" : "shiny (>= 0.11.1), htmltools (>= 0.2.6)",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2015-04-22 15:21:29 UTC; winston",
+				"Author" : "Winston Chang [aut, cre],\n  RStudio [cph],\n  Almasaeed Studio [ctb, cph],\n  Adobe Systems Incorporated [ctb, cph] (Source Sans Pro font)",
+				"Maintainer" : "Winston Chang <winston@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2015-04-22 23:08:28",
+				"Built" : "R 3.1.3; ; 2015-04-23 07:03:59 UTC; unix"
+			}
+		},
+		"utils" : {
+			"description" : {
+				"Package" : "utils",
+				"Version" : "3.1.2",
+				"Priority" : "base",
+				"Title" : "The R Utils Package",
+				"Author" : "R Core Team and contributors worldwide",
+				"Maintainer" : "R Core Team <R-core@r-project.org>",
+				"Description" : "R utility functions",
+				"License" : "Part of R 3.1.2",
+				"Built" : "R 3.1.2; x86_64-apple-darwin13.4.0; 2014-10-31 20:18:52 UTC; unix"
+			}
+		},
+		"httpuv" : {
+			"description" : {
+				"Package" : "httpuv",
+				"Type" : "Package",
+				"Title" : "HTTP and WebSocket server library",
+				"Version" : "1.3.2",
+				"Date" : "2014-10-22",
+				"Author" : "RStudio, Inc.",
+				"Copyright" : "RStudio, Inc.; Joyent, Inc.; Nginx Inc.; Igor Sysoev; Niels\nProvos; Internet Systems Consortium, Inc.; Alexander Chemeris",
+				"Maintainer" : "Joe Cheng <joe@rstudio.com>",
+				"Description" : "httpuv provides low-level socket and protocol support for handling\n    HTTP and WebSocket requests directly from within R. It is primarily\n    intended as a building block for other packages, rather than making it\n    particularly easy to create complete web applications using httpuv alone.\n    httpuv is built on top of the libuv and http-parser C libraries, both of\n    which were developed by Joyent, Inc. (See LICENSE file for libuv and\n    http-parser license information.)",
+				"License" : "GPL-3 | file LICENSE",
+				"Depends" : "R (>= 2.15.1), methods",
+				"Imports" : "Rcpp (>= 0.11.0)",
+				"LinkingTo" : "Rcpp",
+				"URL" : "https://github.com/rstudio/httpuv",
+				"SystemRequirements" : "GNU make",
+				"Packaged" : "2014-10-22 19:21:12 UTC; jcheng",
+				"NeedsCompilation" : "yes",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2014-10-23 07:38:13",
+				"Built" : "R 3.1.2; x86_64-apple-darwin13.4.0; 2015-01-09 16:20:51 UTC; unix"
+			}
+		},
+		"mime" : {
+			"description" : {
+				"Package" : "mime",
+				"Type" : "Package",
+				"Title" : "Map Filenames to MIME Types",
+				"Version" : "0.3",
+				"Date" : "2015-03-29",
+				"Authors@R" : "c(person(\"Jeffrey\", \"Horner\", role = \"ctb\"),\n    person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\"))",
+				"Maintainer" : "Yihui Xie <xie@yihui.name>",
+				"Description" : "Guesses the MIME type from a filename extension using the data\n    derived from /etc/mime.types in UNIX-type systems.",
+				"Imports" : "tools",
+				"License" : "GPL-2",
+				"URL" : "https://github.com/yihui/mime",
+				"BugReports" : "https://github.com/yihui/mime/issues",
+				"LazyData" : "TRUE",
+				"Packaged" : "2015-03-29 03:46:13 UTC; yihui",
+				"Author" : "Jeffrey Horner [ctb],\n  Yihui Xie [aut, cre]",
+				"NeedsCompilation" : "yes",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2015-03-29 08:43:01",
+				"Built" : "R 3.1.3; x86_64-apple-darwin13.4.0; 2015-03-30 06:32:24 UTC; unix"
+			}
+		},
+		"jsonlite" : {
+			"description" : {
+				"Package" : "jsonlite",
+				"Version" : "0.9.16",
+				"Date" : "2014-03-26",
+				"Title" : "A Robust, High Performance JSON Parser and Generator for R",
+				"License" : "MIT + file LICENSE",
+				"NeedsCompilation" : "yes",
+				"Depends" : "methods",
+				"Author" : "Jeroen Ooms, Duncan Temple Lang, Lloyd Hilaiel",
+				"URL" : "http://arxiv.org/abs/1403.2805,\nhttps://www.opencpu.org/posts/jsonlite-a-smarter-json-encoder",
+				"BugReports" : "http://github.com/jeroenooms/jsonlite/issues",
+				"Maintainer" : "Jeroen Ooms <jeroen.ooms@stat.ucla.edu>",
+				"VignetteBuilder" : "knitr, R.rsp",
+				"Description" : "A fast JSON parser and generator optimized for statistical data\n    and the web. Started out as a fork of RJSONIO, but has been completely\n    rewritten in recent versions. The package offers flexible, robust, high\n    performance tools for working with JSON in R and is particularly powerful\n    for building pipelines and interacting with web APIs. The implementation is\n    based on the mapping described in the vignette of the package (Ooms, 2014).\n    In addition to drop-in replacements for toJSON and fromJSON, jsonlite\n    contains functions to stream, validate, and prettify JSON data. The unit\n    tests included with the package verify that all edge cases are encoded and\n    decoded consistently for use with dynamic data in systems and applications.",
+				"Suggests" : "curl (>= 0.5), plyr, testthat, knitr, rmarkdown, R.rsp",
+				"Packaged" : "2015-04-10 18:23:14 UTC; jeroen",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2015-04-11 01:04:45",
+				"Built" : "R 3.1.3; x86_64-apple-darwin13.4.0; 2015-04-12 05:18:17 UTC; unix"
+			}
+		},
+		"xtable" : {
+			"description" : {
+				"Package" : "xtable",
+				"Version" : "1.7-4",
+				"Date" : "2014/08/17",
+				"Title" : "Export tables to LaTeX or HTML",
+				"Author" : "David B. Dahl <dahl@stat.byu.edu>",
+				"Maintainer" : "David Scott <d.scott@auckland.ac.nz>",
+				"Description" : "Coerce data to LaTeX and HTML tables",
+				"URL" : "http://xtable.r-forge.r-project.org/",
+				"Depends" : "R (>= 2.10.0)",
+				"License" : "GPL (>= 2)",
+				"Repository" : "CRAN",
+				"Packaged" : "2014-09-11 22:38:16 UTC; dsco036",
+				"NeedsCompilation" : "no",
+				"Date/Publication" : "2014-09-12 14:30:04",
+				"Built" : "R 3.1.1; ; 2014-09-13 04:51:35 UTC; unix"
+			}
+		},
+		"digest" : {
+			"description" : {
+				"Package" : "digest",
+				"Version" : "0.6.8",
+				"Date" : "2013-12-30",
+				"Author" : "Dirk Eddelbuettel <edd@debian.org> with contributions \n by Antoine Lucas, Jarek Tuszynski, Henrik Bengtsson, Simon Urbanek,\n Mario Frasca, Bryan Lewis, Murray Stokely, Hannes Muehleisen,\n Duncan Murdoch, Jim Hester and Wush Wu.",
+				"Maintainer" : "Dirk Eddelbuettel <edd@debian.org>",
+				"Title" : "Create Cryptographic Hash Digests of R Objects",
+				"Description" : "Implementation of a function 'digest()' for the creation \n of hash digests of arbitrary R objects (using the md5, sha-1, sha-256, \n crc32, xxhash and murmurhash algorithms) permitting easy comparison of R\n language objects, as well as a function 'hmac()' to create hash-based\n message authentication code.\n\n   The md5 algorithm by Ron Rivest is specified in RFC 1321, the sha-1 \n and sha-256 algorithms are specified in FIPS-180-1 and FIPS-180-2, \n and the crc32 algorithm is described in \n ftp://ftp.rocksoft.com/cliens/rocksoft/papers/crc_v3.txt.\n\n   For md5, sha-1, sha-256 and aes, this package uses small standalone\n implementations that were provided by Christophe Devine. For crc32, code\n from the zlib library is used. For sha-512, an implementation by Aaron\n D. Gifford is used. For xxHash, the implementation by Yann Collet is used.\n For murmurhash, an implementation by Shane Day is used.\n\n   Please note that this package is not meant to be deployed for \n cryptographic purposes for which more comprehensive (and widely \n tested) libraries such as OpenSSL should be used.",
+				"Depends" : "R (>= 2.4.1)",
+				"License" : "GPL-2",
+				"URL" : "http://dirk.eddelbuettel.com/code/digest.html",
+				"Packaged" : "2014-12-31 01:14:41.779054 UTC; edd",
+				"NeedsCompilation" : "yes",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2014-12-31 07:47:27",
+				"Built" : "R 3.1.2; x86_64-apple-darwin13.4.0; 2015-01-09 16:10:33 UTC; unix"
+			}
+		},
+		"htmltools" : {
+			"description" : {
+				"Package" : "htmltools",
+				"Type" : "Package",
+				"Title" : "Tools for HTML",
+				"Version" : "0.2.6",
+				"Date" : "2014-07-30",
+				"Author" : "RStudio, Inc.",
+				"Maintainer" : "Joe Cheng <joe@rstudio.com>",
+				"Description" : "Tools for HTML generation and output",
+				"Depends" : "R (>= 2.14.1)",
+				"Imports" : "utils, digest",
+				"Suggests" : "markdown, testthat",
+				"Enhances" : "knitr",
+				"License" : "GPL (>= 2)",
+				"Packaged" : "2014-09-08 16:45:00 UTC; jcheng",
+				"NeedsCompilation" : "no",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2014-09-08 19:23:28",
+				"Built" : "R 3.1.1; ; 2014-09-09 06:11:34 UTC; unix"
+			}
+		},
+		"R6" : {
+			"description" : {
+				"Package" : "R6",
+				"Title" : "Classes with reference semantics",
+				"Version" : "2.0.1",
+				"Authors@R" : "\"Winston Chang <winston@stdout.org> [aut, cre]\"",
+				"Description" : "The R6 package allows the creation of classes with reference\n    semantics, similar to R's built-in reference classes. Compared to reference\n    classes, R6 classes are simpler and lighter-weight, and they are not built\n    on S4 classes so they do not require the methods package. These classes\n    allow public and private members, and they support inheritance, even when\n    the classes are defined in different packages.",
+				"Depends" : "R (>= 3.0)",
+				"Suggests" : "knitr, microbenchmark, pryr, testthat, ggplot2, scales",
+				"License" : "MIT + file LICENSE",
+				"URL" : "https://github.com/wch/R6/",
+				"LazyData" : "true",
+				"VignetteBuilder" : "knitr",
+				"Packaged" : "2014-10-29 15:31:07 UTC; winston",
+				"Author" : "\"Winston Chang\" [aut, cre]",
+				"Maintainer" : "\"Winston Chang\" <winston@stdout.org>",
+				"NeedsCompilation" : "no",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2014-10-29 19:20:28",
+				"Built" : "R 3.1.2; ; 2014-10-30 14:45:37 UTC; unix"
+			}
+		},
+		"methods" : {
+			"description" : {
+				"Package" : "methods",
+				"Version" : "3.1.2",
+				"Priority" : "base",
+				"Imports" : "utils",
+				"Title" : "Formal Methods and Classes",
+				"Author" : "R Core Team",
+				"Maintainer" : "R Core Team <R-core@r-project.org>",
+				"Description" : "Formally defined methods and classes for R objects,\n  plus other programming tools, as described in the reference",
+				"References" : "John M. Chambers (2008) ``Software for Data Analysis:\nProgramming with R''; Springer NY.",
+				"License" : "Part of R 3.1.2",
+				"Built" : "R 3.1.2; x86_64-apple-darwin13.4.0; 2014-10-31 20:19:43 UTC; unix"
+			}
+		},
+		"Rcpp" : {
+			"description" : {
+				"Package" : "Rcpp",
+				"Title" : "Seamless R and C++ Integration",
+				"Version" : "0.11.6",
+				"Date" : "2015-05-01",
+				"Author" : "Dirk Eddelbuettel, Romain Francois, JJ Allaire, Kevin Ushey, \n Douglas Bates, and John Chambers",
+				"Maintainer" : "Dirk Eddelbuettel <edd@debian.org>",
+				"Description" : "The 'Rcpp' package provides R functions as well as C++ classes which\n offer a seamless integration of R and C++. Many R data types and objects can be\n mapped back and forth to C++ equivalents which facilitates both writing of new\n code as well as easier integration of third-party libraries. Documentation \n about 'Rcpp' is provided by several vignettes included in this package, via the \n 'Rcpp Gallery' site at <http://gallery.rcpp.org>, the paper by Eddelbuettel and \n Francois (2011, JSS), and the book by Eddelbuettel (2013, Springer); see \n 'citation(\"Rcpp\")' for details on these last two.",
+				"Depends" : "R (>= 3.0.0)",
+				"Imports" : "methods",
+				"Suggests" : "RUnit, inline, rbenchmark, highlight, pkgKitten (>= 0.1.2)",
+				"VignetteBuilder" : "highlight",
+				"URL" : "http://www.rcpp.org, http://dirk.eddelbuettel.com/code/rcpp.html,\nhttps://github.com/RcppCore/Rcpp",
+				"License" : "GPL (>= 2)",
+				"BugReports" : "https://github.com/RcppCore/Rcpp/issues",
+				"MailingList" : "Please send questions and comments regarding Rcpp to\nrcpp-devel@lists.r-forge.r-project.org",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2015-05-01 14:41:53.662105 UTC; edd",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2015-05-01 16:52:01",
+				"Built" : "R 3.1.3; x86_64-apple-darwin13.4.0; 2015-05-02 04:57:16 UTC; unix"
+			}
+		},
+		"tools" : {
+			"description" : {
+				"Package" : "tools",
+				"Version" : "3.1.2",
+				"Priority" : "base",
+				"Title" : "Tools for Package Development",
+				"Author" : "R Core Team",
+				"Maintainer" : "R Core Team <R-core@r-project.org>",
+				"Description" : "Tools for package development, administration and documentation",
+				"License" : "Part of R 3.1.2",
+				"Built" : "R 3.1.2; x86_64-apple-darwin13.4.0; 2014-10-31 20:18:13 UTC; unix"
+			}
+		},
+		"stats" : {
+			"description" : {
+				"Package" : "stats",
+				"Version" : "3.1.2",
+				"Priority" : "base",
+				"Title" : "The R Stats Package",
+				"Author" : "R Core Team and contributors worldwide",
+				"Maintainer" : "R Core Team <R-core@r-project.org>",
+				"Description" : "R statistical functions",
+				"License" : "Part of R 3.1.2",
+				"Built" : "R 3.1.2; x86_64-apple-darwin13.4.0; 2014-10-31 20:19:14 UTC; unix"
+			}
+		},
+		"plyr" : {
+			"description" : {
+				"Package" : "plyr",
+				"Version" : "1.8.2",
+				"Title" : "Tools for Splitting, Applying and Combining Data",
+				"Description" : "A set of tools that solves a common set of problems: you\n    need to break a big problem down into manageable pieces, operate on each\n    piece and then put all the pieces back together.  For example, you might\n    want to fit a model to each spatial location or time point in your study,\n    summarise data by panels or collapse high-dimensional arrays to simpler\n    summary statistics. The development of 'plyr' has been generously supported\n    by 'Becton Dickinson'.",
+				"Authors@R" : "person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", c(\"aut\", \"cre\"))",
+				"URL" : "http://had.co.nz/plyr, https://github.com/hadley/plyr",
+				"BugReports" : "https://github.com/hadley/plyr/issues",
+				"Depends" : "R (>= 3.1.0)",
+				"Imports" : "Rcpp (>= 0.11.0)",
+				"LinkingTo" : "Rcpp",
+				"Suggests" : "abind, testthat, tcltk, foreach, doParallel, itertools,\niterators",
+				"License" : "MIT + file LICENSE",
+				"LazyData" : "true",
+				"Packaged" : "2015-04-21 09:37:17 UTC; ripley",
+				"Author" : "Hadley Wickham [aut, cre]",
+				"Maintainer" : "Hadley Wickham <hadley@rstudio.com>",
+				"NeedsCompilation" : "yes",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2015-04-21 11:41:05",
+				"Built" : "R 3.1.3; x86_64-apple-darwin13.4.0; 2015-04-22 05:01:10 UTC; unix"
+			}
+		},
+		"grid" : {
+			"description" : {
+				"Package" : "grid",
+				"Version" : "3.1.2",
+				"Priority" : "base",
+				"Title" : "The Grid Graphics Package",
+				"Author" : "Paul Murrell <paul@stat.auckland.ac.nz>",
+				"Maintainer" : "R Core Team <R-core@r-project.org>",
+				"Description" : "A rewrite of the graphics layout capabilities, plus some\n  support for interaction",
+				"Imports" : "grDevices",
+				"Suggests" : "lattice",
+				"License" : "Part of R 3.1.2",
+				"Built" : "R 3.1.2; x86_64-apple-darwin13.4.0; 2014-10-31 20:20:07 UTC; unix"
+			}
+		},
+		"gtable" : {
+			"description" : {
+				"Package" : "gtable",
+				"Type" : "Package",
+				"Title" : "Arrange grobs in tables.",
+				"Version" : "0.1.2",
+				"Author" : "Hadley Wickham <h.wickham@gmail.com>",
+				"Maintainer" : "Hadley Wickham <h.wickham@gmail.com>",
+				"Description" : "Tools to make it easier to work with \"tables\" of grobs.",
+				"Depends" : "R (>= 2.14), grid",
+				"Suggests" : "testthat, plyr",
+				"License" : "GPL-2",
+				"Collate" : "'add-grob.r' 'add-rows-cols.r' 'add-space.r' 'grid.r'\n'gtable-layouts.r' 'gtable.r' 'rbind-cbind.r' 'utils.r'\n'trim.r' 'filter.r' 'align.r' 'padding.r' 'z.r'",
+				"Packaged" : "2012-12-04 23:12:46 UTC; hadley",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2012-12-05 13:11:37",
+				"Built" : "R 3.1.0; ; 2014-04-24 15:03:51 UTC; unix"
+			}
+		},
+		"reshape2" : {
+			"description" : {
+				"Package" : "reshape2",
+				"Title" : "Flexibly Reshape Data: A Reboot of the Reshape Package.",
+				"Version" : "1.4.1",
+				"Author" : "Hadley Wickham <h.wickham@gmail.com>",
+				"Maintainer" : "Hadley Wickham <h.wickham@gmail.com>",
+				"Description" : "Flexibly restructure and aggregate data using just two\n    functions: melt and dcast (or acast).",
+				"URL" : "https://github.com/hadley/reshape",
+				"BugReports" : "https://github.com/hadley/reshape/issues",
+				"LinkingTo" : "Rcpp",
+				"Imports" : "plyr (>= 1.8.1), stringr, Rcpp",
+				"Suggests" : "testthat (>= 0.8.0), lattice",
+				"License" : "MIT + file LICENSE",
+				"LazyData" : "true",
+				"Packaged" : "2014-12-05 16:34:10 UTC; hadley",
+				"NeedsCompilation" : "yes",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2014-12-06 06:56:59",
+				"Built" : "R 3.1.2; x86_64-apple-darwin13.4.0; 2015-01-10 01:28:00 UTC; unix"
+			}
+		},
+		"scales" : {
+			"description" : {
+				"Package" : "scales",
+				"Type" : "Package",
+				"Title" : "Scale functions for graphics.",
+				"Version" : "0.2.4",
+				"Author" : "Hadley Wickham <h.wickham@gmail.com>",
+				"Maintainer" : "Hadley Wickham <h.wickham@gmail.com>",
+				"Description" : "Scales map data to aesthetics, and provide\n    methods for automatically determining breaks and labels\n    for axes and legends.",
+				"URL" : "https://github.com/hadley/scales",
+				"BugReports" : "https://github.com/hadley/scales/issues",
+				"Depends" : "R (>= 2.13)",
+				"Imports" : "RColorBrewer, dichromat, munsell (>= 0.2), plyr (>= 1.2),\nlabeling, methods",
+				"Suggests" : "testthat (>= 0.8)",
+				"License" : "MIT + file LICENSE",
+				"LazyLoad" : "yes",
+				"Roxygen" : "list(wrap = FALSE)",
+				"BuildManual" : "yes",
+				"Packaged" : "2014-04-21 22:24:36 UTC; hadley",
+				"NeedsCompilation" : "no",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2014-04-22 10:50:55",
+				"Built" : "R 3.1.0; ; 2014-04-24 21:24:28 UTC; unix"
+			}
+		},
+		"proto" : {
+			"description" : {
+				"Package" : "proto",
+				"Version" : "0.3-10",
+				"Date" : "2012-12-21",
+				"Title" : "Prototype object-based programming",
+				"Author" : "Louis Kates, Thomas Petzoldt",
+				"Maintainer" : "Gabor Grothendieck <ggrothendieck@gmail.com>",
+				"Description" : "An object oriented system using object-based, also called\n        prototype-based, rather than class-based object oriented ideas.",
+				"Suggests" : "graph, Rgraphviz",
+				"License" : "GPL-2",
+				"URL" : "http://r-proto.googlecode.com",
+				"Packaged" : "2012-12-22 16:03:20 UTC; Louis",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2012-12-22 21:51:44",
+				"Built" : "R 3.1.0; ; 2014-04-24 15:04:08 UTC; unix"
+			}
+		},
+		"MASS" : {
+			"description" : {
+				"Package" : "MASS",
+				"Priority" : "recommended",
+				"Version" : "7.3-40",
+				"Date" : "2015-03-21",
+				"Revision" : "$Rev: 3441 $",
+				"Depends" : "R (>= 3.1.0), grDevices, graphics, stats, utils",
+				"Suggests" : "lattice, nlme, nnet, survival",
+				"Authors@R" : "c(person(\"Brian\", \"Ripley\", role = c(\"aut\", \"cre\", \"cph\"),\n                    email = \"ripley@stats.ox.ac.uk\"),\n\t     person(\"Bill\", \"Venables\", role = \"ctb\"),\n\t     person(c(\"Douglas\", \"M.\"), \"Bates\", role = \"ctb\"),\n\t     person(\"Kurt\", \"Hornik\", role = \"trl\",\n                     comment = \"partial port ca 1998\"),\n\t     person(\"Albrecht\", \"Gebhardt\", role = \"trl\",\n                     comment = \"partial port ca 1998\"),\n\t     person(\"David\", \"Firth\", role = \"ctb\"))",
+				"Description" : "Functions and datasets to support Venables and Ripley,\n  'Modern Applied Statistics with S' (4th edition, 2002).",
+				"Title" : "Support Functions and Datasets for Venables and Ripley's MASS",
+				"LazyData" : "yes",
+				"ByteCompile" : "yes",
+				"License" : "GPL-2 | GPL-3",
+				"URL" : "http://www.stats.ox.ac.uk/pub/MASS4/",
+				"NeedsCompilation" : "yes",
+				"Packaged" : "2015-03-21 06:59:04 UTC; ripley",
+				"Author" : "Brian Ripley [aut, cre, cph],\n  Bill Venables [ctb],\n  Douglas M. Bates [ctb],\n  Kurt Hornik [trl] (partial port ca 1998),\n  Albrecht Gebhardt [trl] (partial port ca 1998),\n  David Firth [ctb]",
+				"Maintainer" : "Brian Ripley <ripley@stats.ox.ac.uk>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2015-03-21 08:05:55",
+				"Built" : "R 3.1.3; x86_64-apple-darwin13.4.0; 2015-03-22 05:07:51 UTC; unix"
+			}
+		},
+		"grDevices" : {
+			"description" : {
+				"Package" : "grDevices",
+				"Version" : "3.1.2",
+				"Priority" : "base",
+				"Title" : "The R Graphics Devices and Support for Colours and Fonts",
+				"Author" : "R Core Team and contributors worldwide",
+				"Maintainer" : "R Core Team <R-core@r-project.org>",
+				"Description" : "Graphics devices and support for base and grid graphics",
+				"License" : "Part of R 3.1.2",
+				"Built" : "R 3.1.2; x86_64-apple-darwin13.4.0; 2014-10-31 20:19:03 UTC; unix"
+			}
+		},
+		"graphics" : {
+			"description" : {
+				"Package" : "graphics",
+				"Version" : "3.1.2",
+				"Priority" : "base",
+				"Title" : "The R Graphics Package",
+				"Author" : "R Core Team and contributors worldwide",
+				"Maintainer" : "R Core Team <R-core@r-project.org>",
+				"Description" : "R functions for base graphics",
+				"Imports" : "grDevices",
+				"License" : "Part of R 3.1.2",
+				"Built" : "R 3.1.2; x86_64-apple-darwin13.4.0; 2014-10-31 20:19:08 UTC; unix"
+			}
+		},
+		"stringr" : {
+			"description" : {
+				"Package" : "stringr",
+				"Version" : "1.0.0",
+				"Title" : "Simple, Consistent Wrappers for Common String Operations",
+				"Description" : "A consistent, simple and easy to use set of wrappers around the\n    fantastic 'stringi' package. All function and argument names (and positions)\n    are consistent, all functions deal with \"NA\"'s and zero length vectors\n    in the same way, and the output from one function is easy to feed into\n    the input of another.",
+				"Authors@R" : "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", c(\"aut\", \"cre\", \"cph\")),\n    person(\"RStudio\", role = \"cph\")\n    )",
+				"License" : "GPL-2",
+				"Depends" : "R (>= 2.14)",
+				"Imports" : "stringi (>= 0.4.1), magrittr",
+				"Suggests" : "testthat, knitr",
+				"VignetteBuilder" : "knitr",
+				"NeedsCompilation" : "no",
+				"Packaged" : "2015-04-29 12:46:34 UTC; hadley",
+				"Author" : "Hadley Wickham [aut, cre, cph],\n  RStudio [cph]",
+				"Maintainer" : "Hadley Wickham <hadley@rstudio.com>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2015-04-30 11:48:24",
+				"Built" : "R 3.1.3; ; 2015-05-01 05:05:12 UTC; unix"
+			}
+		},
+		"RColorBrewer" : {
+			"description" : {
+				"Package" : "RColorBrewer",
+				"Version" : "1.1-2",
+				"Date" : "2014-12-07",
+				"Title" : "ColorBrewer Palettes",
+				"Authors@R" : "c(person(given = \"Erich\", family = \"Neuwirth\", role = c(\"aut\",\n        \"cre\"), email = \"erich.neuwirth@univie.ac.at\"))",
+				"Author" : "Erich Neuwirth [aut, cre]",
+				"Maintainer" : "Erich Neuwirth <erich.neuwirth@univie.ac.at>",
+				"Depends" : "R (>= 2.0.0)",
+				"Description" : "Provides color schemes for maps (and other graphics)\n        designed by Cynthia Brewer as described at http://colorbrewer2.org",
+				"License" : "Apache License 2.0",
+				"Packaged" : "2014-12-06 23:59:42 UTC; neuwirth",
+				"NeedsCompilation" : "no",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2014-12-07 08:28:55",
+				"Built" : "R 3.1.2; ; 2014-12-08 05:51:49 UTC; unix"
+			}
+		},
+		"dichromat" : {
+			"description" : {
+				"Package" : "dichromat",
+				"Version" : "2.0-0",
+				"Date" : "2013-01-23",
+				"Title" : "Color Schemes for Dichromats",
+				"Authors@R" : "c(person(given = \"Thomas\", family = \"Lumley\", role =\n        c(\"aut\", \"cre\"), email = \"tlumley@u.washington.edu\"),\n        person(given = \"Ken\", family = \"Knoblauch\", role = \"ctb\", email\n        = \"ken.knoblauch@inserm.fr\"), person(given = \"Scott\", family =\n        \"Waichler\", role = \"ctb\", email = \"scott.waichler@pnl.gov\"),\n        person(given = \"Achim\", family = \"Zeileis\", role = \"ctb\", email\n        = \"Achim.Zeileis@R-project.org\"))",
+				"Description" : "Collapse red-green or green-blue distinctions to simulate\n        the effects of different types of color-blindness.",
+				"Depends" : "R (>= 2.10), stats",
+				"License" : "GPL-2",
+				"LazyLoad" : "Yes",
+				"Packaged" : "2013-01-23 06:25:04 UTC; zeileis",
+				"Author" : "Thomas Lumley [aut, cre], Ken Knoblauch [ctb], Scott Waichler\n        [ctb], Achim Zeileis [ctb]",
+				"Maintainer" : "Thomas Lumley <tlumley@u.washington.edu>",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2013-01-24 08:18:09",
+				"Built" : "R 3.1.0; ; 2014-04-24 15:03:51 UTC; unix"
+			}
+		},
+		"munsell" : {
+			"description" : {
+				"Package" : "munsell",
+				"Type" : "Package",
+				"Title" : "Munsell colour system",
+				"Version" : "0.4.2",
+				"Author" : "Charlotte Wickham <cwickham@gmail.com>",
+				"Maintainer" : "Charlotte Wickham <cwickham@gmail.com>",
+				"Description" : "Functions for exploring and using the Munsell\n    colour system",
+				"Suggests" : "ggplot2 (>= 0.9.2)",
+				"Imports" : "colorspace",
+				"License" : "MIT + file LICENSE",
+				"Collate" : "'alter.r' 'check.r' 'convert.r' 'munsell.r' 'plot.r'",
+				"Packaged" : "2013-07-08 19:19:22 UTC; wickhamc",
+				"NeedsCompilation" : "no",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2013-07-11 20:15:53",
+				"Built" : "R 3.1.0; ; 2014-04-24 19:19:04 UTC; unix"
+			}
+		},
+		"labeling" : {
+			"description" : {
+				"Package" : "labeling",
+				"Type" : "Package",
+				"Title" : "Axis Labeling",
+				"Version" : "0.3",
+				"Date" : "2014-08-22",
+				"Author" : "Justin Talbot",
+				"Maintainer" : "Justin Talbot <justintalbot@gmail.com>",
+				"Description" : "Provides a range of axis labeling algorithms",
+				"License" : "MIT + file LICENSE | Unlimited",
+				"LazyLoad" : "no",
+				"Collate" : "'labeling.R'",
+				"Repository" : "CRAN",
+				"Repository/R-Forge/Project" : "labeling",
+				"Repository/R-Forge/Revision" : "16",
+				"Repository/R-Forge/DateTimeStamp" : "2014-08-23 05:53:23",
+				"Date/Publication" : "2014-08-23 14:57:53",
+				"Packaged" : "2014-08-23 06:15:07 UTC; rforge",
+				"NeedsCompilation" : "no",
+				"Built" : "R 3.1.1; ; 2014-08-24 06:02:03 UTC; unix"
+			}
+		},
+		"colorspace" : {
+			"description" : {
+				"Package" : "colorspace",
+				"Version" : "1.2-6",
+				"Date" : "2015-03-10",
+				"Title" : "Color Space Manipulation",
+				"Authors@R" : "c(person(given = \"Ross\", family = \"Ihaka\", role = \"aut\", email = \"ihaka@stat.auckland.ac.nz\"),\n             person(given = \"Paul\", family = \"Murrell\", role = \"aut\", email = \"paul@stat.auckland.ac.nz\"),\n             person(given = \"Kurt\", family = \"Hornik\", role = \"aut\", email = \"Kurt.Hornik@R-project.org\"),\n             person(given = c(\"Jason\", \"C.\"), family = \"Fisher\", role = \"aut\", email = \"jfisher@usgs.gov\"),\n             person(given = \"Achim\", family = \"Zeileis\", role = c(\"aut\", \"cre\"), email = \"Achim.Zeileis@R-project.org\"))",
+				"Description" : "Carries out mapping between assorted color spaces including\n             RGB, HSV, HLS, CIEXYZ, CIELUV, HCL (polar CIELUV),\n\t     CIELAB and polar CIELAB. Qualitative, sequential, and\n\t     diverging color palettes based on HCL colors are provided.",
+				"Depends" : "R (>= 2.13.0), methods",
+				"Imports" : "graphics",
+				"Suggests" : "KernSmooth, MASS, kernlab, mvtnorm, vcd, dichromat, tcltk",
+				"License" : "BSD_3_clause + file LICENSE",
+				"LazyData" : "yes",
+				"Packaged" : "2015-03-10 21:17:09 UTC; zeileis",
+				"Author" : "Ross Ihaka [aut],\n  Paul Murrell [aut],\n  Kurt Hornik [aut],\n  Jason C. Fisher [aut],\n  Achim Zeileis [aut, cre]",
+				"Maintainer" : "Achim Zeileis <Achim.Zeileis@R-project.org>",
+				"NeedsCompilation" : "yes",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2015-03-11 00:21:00",
+				"Built" : "R 3.1.3; x86_64-apple-darwin13.4.0; 2015-03-12 04:59:26 UTC; unix"
+			}
+		},
+		"stringi" : {
+			"description" : {
+				"Package" : "stringi",
+				"Version" : "0.4-1",
+				"Date" : "2014-12-11",
+				"Title" : "Character String Processing Facilities",
+				"Description" : "stringi allows for fast, correct, consistent, portable,\n    and convenient character string/text processing in every locale\n    and any native encoding. Owing to the use of the ICU library,\n    the package provides R users with platform-independent functions\n    known to Java, Perl, Python, PHP, and Ruby programmers.",
+				"URL" : "http://stringi.rexamine.com/ http://site.icu-project.org/\nhttp://www.unicode.org/",
+				"BugReports" : "http://github.com/Rexamine/stringi/issues",
+				"SystemRequirements" : "ICU4C (>= 50.0)",
+				"Type" : "Package",
+				"Depends" : "R (>= 2.15.0)",
+				"Imports" : "tools",
+				"License" : "file LICENSE",
+				"Author" : "Marek Gagolewski and Bartek Tartanus (stringi source code);\n    IBM and other contributors (ICU4C 52.1 source code);\n    Unicode, Inc. (Unicode Character Database)",
+				"Maintainer" : "Marek Gagolewski <gagolews@rexamine.com>",
+				"Packaged" : "2014-12-11 09:56:51 UTC; gagolews",
+				"NeedsCompilation" : "yes",
+				"License_is_FOSS" : "yes",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2014-12-14 13:14:16",
+				"Built" : "R 3.1.2; x86_64-apple-darwin13.4.0; 2015-01-09 17:20:55 UTC; unix"
+			}
+		},
+		"magrittr" : {
+			"description" : {
+				"Package" : "magrittr",
+				"Type" : "Package",
+				"Title" : "A Forward-Pipe Operator for R",
+				"Version" : "1.5",
+				"Author" : "Stefan Milton Bache <stefan@stefanbache.dk> and\n    Hadley Wickham <h.wickham@gmail.com>",
+				"Maintainer" : "Stefan Milton Bache <stefan@stefanbache.dk>",
+				"Description" : "Provides a mechanism for chaining commands with a\n    new forward-pipe operator, %>%. This operator will forward a\n    value, or the result of an expression, into the next function\n    call/expression. There is flexible support for the type\n    of right-hand side expressions. For more information, see\n    package vignette.\n    To quote Rene Magritte, \"Ceci n'est pas un pipe.\"",
+				"Suggests" : "testthat, knitr",
+				"VignetteBuilder" : "knitr",
+				"License" : "MIT + file LICENSE",
+				"ByteCompile" : "Yes",
+				"Packaged" : "2014-11-22 08:50:53 UTC; shb",
+				"NeedsCompilation" : "no",
+				"Repository" : "CRAN",
+				"Date/Publication" : "2014-11-22 19:15:57",
+				"Built" : "R 3.1.2; ; 2015-01-09 16:09:54 UTC; unix"
+			}
+		}
+	},
+	"files" : {
+		"A-B-CA.txt" : {
+			"checksum" : "77360bdb3586ad0e51c0470967203b97"
+		},
+		"data/.DS_Store" : {
+			"checksum" : "fcf5a3e15f96ee00542b2a7584400da1"
+		},
+		"data/Generated-NA/.RData" : {
+			"checksum" : "8518aad8e76699e01de5b74bcf7f9a98"
+		},
+		"data/Generated-NA/.Rhistory" : {
+			"checksum" : "0f69b7ca60aad5bad30f2699e49de89c"
+		},
+		"data/Generated-NA/A-B-CA.txt" : {
+			"checksum" : "77360bdb3586ad0e51c0470967203b97"
+		},
+		"data/Generated-NA/A-B-CB.txt" : {
+			"checksum" : "520aa368c063dd15532c23f68d95e434"
+		},
+		"data/Generated-NA/A-B-CO.txt" : {
+			"checksum" : "996098b80f294c5b088391fa6d361365"
+		},
+		"data/Generated-NA/A-C-CA.txt" : {
+			"checksum" : "e76b7f3a819065530185fb76b93e7aed"
+		},
+		"data/Generated-NA/A-C-CB.txt" : {
+			"checksum" : "17a7688e5164763ba0fcf235d6056c6b"
+		},
+		"data/Generated-NA/A-C-CO.txt" : {
+			"checksum" : "5a5e96d3b1c8a1d712a5839b6afa43eb"
+		},
+		"data/Generated-NA/A-H-CA.txt" : {
+			"checksum" : "8b10a701fe3aba1d1e5fbd9fe3837e57"
+		},
+		"data/Generated-NA/A-H-CB.txt" : {
+			"checksum" : "9d6f3474a390034e73e3eeef7bebda08"
+		},
+		"data/Generated-NA/A-H-CO.txt" : {
+			"checksum" : "c5d4eae5d3cc002756098c6adf9a6a1b"
+		},
+		"data/Generated-NA/A-U-CA.txt" : {
+			"checksum" : "c517bf9aa6dce91a709a83b0c6b8b2ac"
+		},
+		"data/Generated-NA/A-U-CB.txt" : {
+			"checksum" : "6787f0482d5b43ac97d9bfc79eabc478"
+		},
+		"data/Generated-NA/A-U-CO.txt" : {
+			"checksum" : "365cc40e6746cb58f7062d3dc78e05e0"
+		},
+		"data/Generated-NA/C-B-CA.txt" : {
+			"checksum" : "1a9267c8af8b9a7909587ec02261d252"
+		},
+		"data/Generated-NA/C-B-CB.txt" : {
+			"checksum" : "54ca968af94b93fb0c2e135bf20d262d"
+		},
+		"data/Generated-NA/C-B-CO.txt" : {
+			"checksum" : "593f63db3d4cde2932af6e6dafdb3412"
+		},
+		"data/Generated-NA/C-C-CA.txt" : {
+			"checksum" : "3a4246a3f859c93712f74b808de1f057"
+		},
+		"data/Generated-NA/C-C-CB.txt" : {
+			"checksum" : "c71a1ee5aceef0f9ece953febdf9e9b1"
+		},
+		"data/Generated-NA/C-C-CO.txt" : {
+			"checksum" : "01484054bb3f33cb7985482c97ad4e53"
+		},
+		"data/Generated-NA/C-H-CA.txt" : {
+			"checksum" : "74a8ce5ae84fdea7a2c955e4a6093071"
+		},
+		"data/Generated-NA/C-H-CB.txt" : {
+			"checksum" : "613ecdfbfdfecfce866a9b480e05aab1"
+		},
+		"data/Generated-NA/C-H-CO.txt" : {
+			"checksum" : "ca7c8f9649f091364fb0bd5aebf26208"
+		},
+		"data/Generated-NA/C-U-CA.txt" : {
+			"checksum" : "c8841edacfacb2053f1283f2d3948172"
+		},
+		"data/Generated-NA/C-U-CB.txt" : {
+			"checksum" : "5dd8862e09576901e491c53a0acb2f09"
+		},
+		"data/Generated-NA/C-U-CO.txt" : {
+			"checksum" : "ab485691bb812e4ff689e4eeafa6e549"
+		},
+		"data/Generated-NA/D-B-CA.txt" : {
+			"checksum" : "9396f532e2e30332dc4a8c3379635110"
+		},
+		"data/Generated-NA/D-B-CB.txt" : {
+			"checksum" : "eef7fc7003a1c21ffc4fc34a6742d27e"
+		},
+		"data/Generated-NA/D-B-CO.txt" : {
+			"checksum" : "ea6f441a047c3c08d3790efc4b2c04f1"
+		},
+		"data/Generated-NA/D-C-CA.txt" : {
+			"checksum" : "790bef5567548a4a16207d000340cb59"
+		},
+		"data/Generated-NA/D-C-CB.txt" : {
+			"checksum" : "1279a1f975ec0bef2df0ed63232a075c"
+		},
+		"data/Generated-NA/D-C-CO.txt" : {
+			"checksum" : "756db8749e817a0a5dea7e09844fac27"
+		},
+		"data/Generated-NA/D-H-CA.txt" : {
+			"checksum" : "e34a9d6d9edebf61a72ca9e0e0d0497b"
+		},
+		"data/Generated-NA/D-H-CB.txt" : {
+			"checksum" : "d2624cb81b8b8d49a036498e8de26fd6"
+		},
+		"data/Generated-NA/D-H-CO.txt" : {
+			"checksum" : "1d66e57d250bc41976ad6e0bb5cec32f"
+		},
+		"data/Generated-NA/D-U-CA.txt" : {
+			"checksum" : "bba6c77f2cf9aca2fab56c829d6a0e9c"
+		},
+		"data/Generated-NA/D-U-CB.txt" : {
+			"checksum" : "bd7829c1bd390e5a60646e13ed5303a9"
+		},
+		"data/Generated-NA/D-U-CO.txt" : {
+			"checksum" : "5a41b531c66813b0d6d083c5e3391bf9"
+		},
+		"data/Generated-NA/E-B-CA.txt" : {
+			"checksum" : "7e94cf6514f189ea297541585822a32b"
+		},
+		"data/Generated-NA/E-B-CB.txt" : {
+			"checksum" : "12fb2e8472c2de3b31ab709cc109d235"
+		},
+		"data/Generated-NA/E-B-CO.txt" : {
+			"checksum" : "c76cefc8c3f3546925f19d6b55d4af02"
+		},
+		"data/Generated-NA/E-C-CA.txt" : {
+			"checksum" : "207650d38b51731cfd1ef4951300d249"
+		},
+		"data/Generated-NA/E-C-CB.txt" : {
+			"checksum" : "34ed140486b177319acbb6601ef713d9"
+		},
+		"data/Generated-NA/E-C-CO.txt" : {
+			"checksum" : "6a85637b95d1d6fb7d316748c12abf64"
+		},
+		"data/Generated-NA/E-H-CA.txt" : {
+			"checksum" : "83ed68b45ef103118c709491f9497f23"
+		},
+		"data/Generated-NA/E-H-CB.txt" : {
+			"checksum" : "ae0736b4feed7ee91db7c865f4793c01"
+		},
+		"data/Generated-NA/E-H-CO.txt" : {
+			"checksum" : "a57bfe67fd38517b66c5c5920b5792f5"
+		},
+		"data/Generated-NA/E-U-CA.txt" : {
+			"checksum" : "a9161f47ea7871f4417daca23d22f838"
+		},
+		"data/Generated-NA/E-U-CB.txt" : {
+			"checksum" : "bf6f4d972cae0cee7555ea50e28dea94"
+		},
+		"data/Generated-NA/E-U-CO.txt" : {
+			"checksum" : "0e513e7a49bcf2893400958297a67acf"
+		},
+		"data/Generated-NA/F-B-CA.txt" : {
+			"checksum" : "a6dc6447df9ab0053390dc019ca22e45"
+		},
+		"data/Generated-NA/F-B-CB.txt" : {
+			"checksum" : "d76015463c88094875ca16f847dbbf80"
+		},
+		"data/Generated-NA/F-B-CO.txt" : {
+			"checksum" : "a48e3e57649bc24b79be51056e9babfe"
+		},
+		"data/Generated-NA/F-C-CA.txt" : {
+			"checksum" : "89326eda64da42ae95959a4660f2c19d"
+		},
+		"data/Generated-NA/F-C-CB.txt" : {
+			"checksum" : "115aef2690fba994c0294b1964a8ae16"
+		},
+		"data/Generated-NA/F-C-CO.txt" : {
+			"checksum" : "e62bad47db02db88c15c1d0c7b5bdf81"
+		},
+		"data/Generated-NA/F-H-CA.txt" : {
+			"checksum" : "b0ec563d7afa5e176cc3fed6d341686f"
+		},
+		"data/Generated-NA/F-H-CB.txt" : {
+			"checksum" : "53f20e010c70a0fa356671217027e878"
+		},
+		"data/Generated-NA/F-H-CO.txt" : {
+			"checksum" : "2cd9a8872cf0622982a0bd8facafaaf6"
+		},
+		"data/Generated-NA/F-U-CA.txt" : {
+			"checksum" : "090516157e440e685a68c3e17e26e358"
+		},
+		"data/Generated-NA/F-U-CB.txt" : {
+			"checksum" : "48cf0112dfa1f2bd6f5437cdbac2ad21"
+		},
+		"data/Generated-NA/F-U-CO.txt" : {
+			"checksum" : "ab8bda8166b699444c930406c6487d8a"
+		},
+		"data/Generated-NA/G-B-CA.txt" : {
+			"checksum" : "123122c62fc0a52e13c650ddd52a1a07"
+		},
+		"data/Generated-NA/G-B-CB.txt" : {
+			"checksum" : "9ca5fec0e30f74ece78af98fe6c949c9"
+		},
+		"data/Generated-NA/G-B-CO.txt" : {
+			"checksum" : "9ca5fec0e30f74ece78af98fe6c949c9"
+		},
+		"data/Generated-NA/G-C-CA.txt" : {
+			"checksum" : "e9961b1772ccf756b8daecf85280f4e0"
+		},
+		"data/Generated-NA/G-C-CB.txt" : {
+			"checksum" : "02e78b3d130ce8d68e348a3d3fd1b584"
+		},
+		"data/Generated-NA/G-C-CO.txt" : {
+			"checksum" : "02e78b3d130ce8d68e348a3d3fd1b584"
+		},
+		"data/Generated-NA/G-H-CA.txt" : {
+			"checksum" : "5007af6c42b92cd3d65239d5028d1450"
+		},
+		"data/Generated-NA/G-H-CB.txt" : {
+			"checksum" : "a002c905edd38c73a0660747c1a03d48"
+		},
+		"data/Generated-NA/G-H-CO.txt" : {
+			"checksum" : "a002c905edd38c73a0660747c1a03d48"
+		},
+		"data/Generated-NA/G-U-CA.txt" : {
+			"checksum" : "9089ae08df0e93d5b1c6a5b736bf4028"
+		},
+		"data/Generated-NA/G-U-CB.txt" : {
+			"checksum" : "cef9cdd03b53b7e60caed27d0311db35"
+		},
+		"data/Generated-NA/G-U-CO.txt" : {
+			"checksum" : "cef9cdd03b53b7e60caed27d0311db35"
+		},
+		"data/Generated-NA/H-B-CA.txt" : {
+			"checksum" : "79f241356e8ea2e5ec45573ff67e4a51"
+		},
+		"data/Generated-NA/H-B-CB.txt" : {
+			"checksum" : "30ec03b8633af660edf543a833e2b54f"
+		},
+		"data/Generated-NA/H-B-CO.txt" : {
+			"checksum" : "e4e6206f95fc18b61882e37d13c9db92"
+		},
+		"data/Generated-NA/H-C-CA.txt" : {
+			"checksum" : "a4e658b8ac62c2d64fa8f2d36982b295"
+		},
+		"data/Generated-NA/H-C-CB.txt" : {
+			"checksum" : "f7e149e15a80ceb224791a04848afaff"
+		},
+		"data/Generated-NA/H-C-CO.txt" : {
+			"checksum" : "f365ffc1fdf7e952a871c59323f76266"
+		},
+		"data/Generated-NA/H-H-CA.txt" : {
+			"checksum" : "030acbdd61cd05d81674dcb47ff81f60"
+		},
+		"data/Generated-NA/H-H-CB.txt" : {
+			"checksum" : "96cae9a31660bbd93520f7daa4071a46"
+		},
+		"data/Generated-NA/H-H-CO.txt" : {
+			"checksum" : "4456ddf7940f94f81a939b59704eb4f5"
+		},
+		"data/Generated-NA/H-U-CA.txt" : {
+			"checksum" : "723ba22bbeacf09bedf0501442dde70d"
+		},
+		"data/Generated-NA/H-U-CB.txt" : {
+			"checksum" : "dc871e42bd2699077cfd3b7ab59f4794"
+		},
+		"data/Generated-NA/H-U-CO.txt" : {
+			"checksum" : "992b9c75ae299e055fe3e33e06349235"
+		},
+		"data/Generated-NA/I-B-CA.txt" : {
+			"checksum" : "49cd59f56c26cbec68f7943cdaa16e89"
+		},
+		"data/Generated-NA/I-B-CB.txt" : {
+			"checksum" : "cfdabebe5a245660c14100c767f91727"
+		},
+		"data/Generated-NA/I-B-CO.txt" : {
+			"checksum" : "6fb2224abcac8f2927e0abe8cc26d88e"
+		},
+		"data/Generated-NA/I-C-CA.txt" : {
+			"checksum" : "82972e159d53970e76b21815b2c957e5"
+		},
+		"data/Generated-NA/I-C-CB.txt" : {
+			"checksum" : "3369f12bad104fa6a10bc06da35a9da5"
+		},
+		"data/Generated-NA/I-C-CO.txt" : {
+			"checksum" : "8e5875716c582d4b6ee937b5fcc68aec"
+		},
+		"data/Generated-NA/I-H-CA.txt" : {
+			"checksum" : "1ddeb403feef151f3fb0bf7d796b158d"
+		},
+		"data/Generated-NA/I-H-CB.txt" : {
+			"checksum" : "4f98dd19b7bbbf42e3c9c39c05ef254b"
+		},
+		"data/Generated-NA/I-H-CO.txt" : {
+			"checksum" : "430744ae2385d2c875abcc9a4c0eab77"
+		},
+		"data/Generated-NA/I-U-CA.txt" : {
+			"checksum" : "730cf9fd400da5e0bc29d3ef47f5710a"
+		},
+		"data/Generated-NA/I-U-CB.txt" : {
+			"checksum" : "d0128ee0dd439c54bab2370692ef1d85"
+		},
+		"data/Generated-NA/I-U-CO.txt" : {
+			"checksum" : "80aefb62dd4262ba5f772200f2eaa350"
+		},
+		"data/Generated-NA/K-B-CA.txt" : {
+			"checksum" : "12688de1d7a23477803e9c56ac9fbb0b"
+		},
+		"data/Generated-NA/K-B-CB.txt" : {
+			"checksum" : "a50b1a285216ea3910ee93b3a845b88d"
+		},
+		"data/Generated-NA/K-B-CO.txt" : {
+			"checksum" : "85af5768344653f2ba5d18b618e63762"
+		},
+		"data/Generated-NA/K-C-CA.txt" : {
+			"checksum" : "682733a2d8f6b81b694989a5a2d2d816"
+		},
+		"data/Generated-NA/K-C-CB.txt" : {
+			"checksum" : "036b2e56b8249628fa900620fa92cdd8"
+		},
+		"data/Generated-NA/K-C-CO.txt" : {
+			"checksum" : "d0b11df12e21ebf83f78cd7a09d8631a"
+		},
+		"data/Generated-NA/K-H-CA.txt" : {
+			"checksum" : "c7fee05d371c1c4cd5855e5ef306a22d"
+		},
+		"data/Generated-NA/K-H-CB.txt" : {
+			"checksum" : "4b07cb1e9dd31e284ea4d011fb0da5da"
+		},
+		"data/Generated-NA/K-H-CO.txt" : {
+			"checksum" : "5d8c6427e4e4f357479a53fadcd49849"
+		},
+		"data/Generated-NA/K-U-CA.txt" : {
+			"checksum" : "d111d8fa67ff3436ffcda876b191bfa6"
+		},
+		"data/Generated-NA/K-U-CB.txt" : {
+			"checksum" : "c9b45bba187390aa4285af7a9173e5ee"
+		},
+		"data/Generated-NA/K-U-CO.txt" : {
+			"checksum" : "1be3f6d0d61376fd8c82fce6a0fe2a1b"
+		},
+		"data/Generated-NA/L-B-CA.txt" : {
+			"checksum" : "59b25305f6c01e9187fe27d71e05336b"
+		},
+		"data/Generated-NA/L-B-CB.txt" : {
+			"checksum" : "93183c4363e034de914fdcd16f4ecc87"
+		},
+		"data/Generated-NA/L-B-CO.txt" : {
+			"checksum" : "62b014b6da4c75505bc5d2eac5212909"
+		},
+		"data/Generated-NA/L-C-CA.txt" : {
+			"checksum" : "a68f7eda81f0b512c753288eac58b277"
+		},
+		"data/Generated-NA/L-C-CB.txt" : {
+			"checksum" : "dd38ee4eb99212a3d181026cc4f9d1fd"
+		},
+		"data/Generated-NA/L-C-CO.txt" : {
+			"checksum" : "bd1f2e0182817ae705ab22e6f7ecb4a0"
+		},
+		"data/Generated-NA/L-H-CA.txt" : {
+			"checksum" : "42b706f8b0d190e05d250bc49caf21e7"
+		},
+		"data/Generated-NA/L-H-CB.txt" : {
+			"checksum" : "b8ec476d77f14cff6d546525c3c79010"
+		},
+		"data/Generated-NA/L-H-CO.txt" : {
+			"checksum" : "daddd1f6a12f18100e0852398172ed4b"
+		},
+		"data/Generated-NA/L-U-CA.txt" : {
+			"checksum" : "e402732e6cae68634cc29657fcee6d4e"
+		},
+		"data/Generated-NA/L-U-CB.txt" : {
+			"checksum" : "5b0915049aac8fccf150df6e2f128276"
+		},
+		"data/Generated-NA/L-U-CO.txt" : {
+			"checksum" : "b4e1938609b6f55a105296435f4c42ce"
+		},
+		"data/Generated-NA/M-B-CA.txt" : {
+			"checksum" : "43c435678423459d7d9105932e9058cd"
+		},
+		"data/Generated-NA/M-B-CB.txt" : {
+			"checksum" : "c4d4b3dc5647bd96bd5e91f44d11ab35"
+		},
+		"data/Generated-NA/M-B-CO.txt" : {
+			"checksum" : "56d964a099918084c7cb486ddbd762a4"
+		},
+		"data/Generated-NA/M-C-CA.txt" : {
+			"checksum" : "4cf6ecfa4ed2d646f3314690d5656bc7"
+		},
+		"data/Generated-NA/M-C-CB.txt" : {
+			"checksum" : "89f1d712c8cf997913a78da73ef9bb56"
+		},
+		"data/Generated-NA/M-C-CO.txt" : {
+			"checksum" : "de9fd1608088d121aa094402ea133cad"
+		},
+		"data/Generated-NA/M-H-CA.txt" : {
+			"checksum" : "3c2f85c3b793cd3ea728f86a70797dd3"
+		},
+		"data/Generated-NA/M-H-CB.txt" : {
+			"checksum" : "449e262d46f5680e67bd2caa14c2420d"
+		},
+		"data/Generated-NA/M-H-CO.txt" : {
+			"checksum" : "a7252282a29e6eadea2ac7735079dd70"
+		},
+		"data/Generated-NA/M-U-CA.txt" : {
+			"checksum" : "f6ce1615539240827e8b2e22bec9773a"
+		},
+		"data/Generated-NA/M-U-CB.txt" : {
+			"checksum" : "898d7f203843bf00c1d28c0261297b94"
+		},
+		"data/Generated-NA/M-U-CO.txt" : {
+			"checksum" : "182ab524d8a9484efabea692e45de6c8"
+		},
+		"data/Generated-NA/N-B-CA.txt" : {
+			"checksum" : "887fae998d2416e31355442eb5e14535"
+		},
+		"data/Generated-NA/N-B-CB.txt" : {
+			"checksum" : "c6892db482868027ddb20e430732a82a"
+		},
+		"data/Generated-NA/N-B-CO.txt" : {
+			"checksum" : "6749d54a748887719d687a577ad6a7ae"
+		},
+		"data/Generated-NA/N-C-CA.txt" : {
+			"checksum" : "b64ed988623302cbb661a1ba105a0cce"
+		},
+		"data/Generated-NA/N-C-CB.txt" : {
+			"checksum" : "90907e99472c8d934dcf15569260fcbc"
+		},
+		"data/Generated-NA/N-C-CO.txt" : {
+			"checksum" : "a79ca91d46745f3dfd1b3198e63c1407"
+		},
+		"data/Generated-NA/N-H-CA.txt" : {
+			"checksum" : "336e6d4e9b039d9179fc64478aa71602"
+		},
+		"data/Generated-NA/N-H-CB.txt" : {
+			"checksum" : "1c35c233f10e70ffb2a509dd3f53e171"
+		},
+		"data/Generated-NA/N-H-CO.txt" : {
+			"checksum" : "ab1f0c5ef28e1c2563bf92e063ce914b"
+		},
+		"data/Generated-NA/N-U-CA.txt" : {
+			"checksum" : "1b2d12f7dcb8d0fa816daf4a941bb67a"
+		},
+		"data/Generated-NA/N-U-CB.txt" : {
+			"checksum" : "7b27c774daea32fe3e94a0a733b835e9"
+		},
+		"data/Generated-NA/N-U-CO.txt" : {
+			"checksum" : "2616bee1ac3a3b7b522df0c34c83d9e7"
+		},
+		"data/Generated-NA/P-B-CA.txt" : {
+			"checksum" : "4bc3733cbe3439ed4d842a937b1079af"
+		},
+		"data/Generated-NA/P-B-CB.txt" : {
+			"checksum" : "5c92559de0953d8fb92a11f0286c876b"
+		},
+		"data/Generated-NA/P-B-CO.txt" : {
+			"checksum" : "b3a533ee72fc372f18b5788ebe42626e"
+		},
+		"data/Generated-NA/P-C-CA.txt" : {
+			"checksum" : "3a455b026f6c79af04c59031c2998068"
+		},
+		"data/Generated-NA/P-C-CB.txt" : {
+			"checksum" : "443a685eeaca21787757ca8e8c3859a6"
+		},
+		"data/Generated-NA/P-C-CO.txt" : {
+			"checksum" : "9df67bcea9481d66718781b7a7cd3203"
+		},
+		"data/Generated-NA/P-H-CA.txt" : {
+			"checksum" : "3650664909240c55bd6678b4950fa394"
+		},
+		"data/Generated-NA/P-H-CB.txt" : {
+			"checksum" : "d92daa0faf0eab9b0a38a64297431e0f"
+		},
+		"data/Generated-NA/P-H-CO.txt" : {
+			"checksum" : "60588c02fad758443cbb8f1e657f7188"
+		},
+		"data/Generated-NA/P-U-CA.txt" : {
+			"checksum" : "25784c17088dcdf78a3e64fe651a94b3"
+		},
+		"data/Generated-NA/P-U-CB.txt" : {
+			"checksum" : "e7cf7a81fc134506dc216063185a8ac9"
+		},
+		"data/Generated-NA/P-U-CO.txt" : {
+			"checksum" : "84b7d6c8879730370216de8b0a77f8bf"
+		},
+		"data/Generated-NA/Q-B-CA.txt" : {
+			"checksum" : "27acb52a514f7fd6c5027e797ce3555f"
+		},
+		"data/Generated-NA/Q-B-CB.txt" : {
+			"checksum" : "8c230f70381ee4e1495dfcd275f9dc1e"
+		},
+		"data/Generated-NA/Q-B-CO.txt" : {
+			"checksum" : "498a3f6cd1d6d424a7912d2640ab3d7e"
+		},
+		"data/Generated-NA/Q-C-CA.txt" : {
+			"checksum" : "97f71db7f56b5cf3cd8f06e2226a51f2"
+		},
+		"data/Generated-NA/Q-C-CB.txt" : {
+			"checksum" : "a067364b3b5ab55136b2449189cfa1a1"
+		},
+		"data/Generated-NA/Q-C-CO.txt" : {
+			"checksum" : "41f01d294486dcd773f45c72b041601c"
+		},
+		"data/Generated-NA/Q-H-CA.txt" : {
+			"checksum" : "c289fc7445d17213db4c7c1633eb44b3"
+		},
+		"data/Generated-NA/Q-H-CB.txt" : {
+			"checksum" : "9ee750aedbafad7895b0daeb17973cb3"
+		},
+		"data/Generated-NA/Q-H-CO.txt" : {
+			"checksum" : "cd3a1b0005e5dc3ccaef55cda37dc805"
+		},
+		"data/Generated-NA/Q-U-CA.txt" : {
+			"checksum" : "46974d2d1d460b7c445ba9ad194429dc"
+		},
+		"data/Generated-NA/Q-U-CB.txt" : {
+			"checksum" : "16b43698f4991f44da60bff2f13a8558"
+		},
+		"data/Generated-NA/Q-U-CO.txt" : {
+			"checksum" : "000a883096517c6a86e8fc0fa55f8d0d"
+		},
+		"data/Generated-NA/R-B-CA.txt" : {
+			"checksum" : "50353c3f52cd8c599777f2f9065a20f3"
+		},
+		"data/Generated-NA/R-B-CB.txt" : {
+			"checksum" : "7a0894c40b10b3bc75aa7f4b24ebc86f"
+		},
+		"data/Generated-NA/R-B-CO.txt" : {
+			"checksum" : "54f674e5752c6aafea73edb34a3b6551"
+		},
+		"data/Generated-NA/R-C-CA.txt" : {
+			"checksum" : "7ec4ebb2674352f1e0fbad792db0d7e2"
+		},
+		"data/Generated-NA/R-C-CB.txt" : {
+			"checksum" : "4c024d9c2c04ff4ef9cde9c71af66db2"
+		},
+		"data/Generated-NA/R-C-CO.txt" : {
+			"checksum" : "357c8803cea0004b4839d06f14921df9"
+		},
+		"data/Generated-NA/R-H-CA.txt" : {
+			"checksum" : "58465a23608e5d6fcfc1cfdd10a2bee0"
+		},
+		"data/Generated-NA/R-H-CB.txt" : {
+			"checksum" : "8a5a539072604bf99f6b969800c53059"
+		},
+		"data/Generated-NA/R-H-CO.txt" : {
+			"checksum" : "279e6f12b180d6c3d4de75d58c78f4e7"
+		},
+		"data/Generated-NA/R-U-CA.txt" : {
+			"checksum" : "9889d721d3b4f4f5a73ae53472585f7e"
+		},
+		"data/Generated-NA/R-U-CB.txt" : {
+			"checksum" : "5a64f0925d9b8261ef5012720f0bed45"
+		},
+		"data/Generated-NA/R-U-CO.txt" : {
+			"checksum" : "2ea159e005f465518dc077c852fca738"
+		},
+		"data/Generated-NA/S-B-CA.txt" : {
+			"checksum" : "14884b1c15863a62a94949ae355901b6"
+		},
+		"data/Generated-NA/S-B-CB.txt" : {
+			"checksum" : "b32554d25d85e327f6d1479241a1f932"
+		},
+		"data/Generated-NA/S-B-CO.txt" : {
+			"checksum" : "10681a1b1806ca488a075023300d4bc5"
+		},
+		"data/Generated-NA/S-C-CA.txt" : {
+			"checksum" : "03c5e33c825850041354fb602ad7353b"
+		},
+		"data/Generated-NA/S-C-CB.txt" : {
+			"checksum" : "d7e7de198b43e87913b04421cc59f634"
+		},
+		"data/Generated-NA/S-C-CO.txt" : {
+			"checksum" : "1efa9c73d5adedc5f815a917b8ee8f74"
+		},
+		"data/Generated-NA/S-H-CA.txt" : {
+			"checksum" : "9b25a3a9aeadf6228937613da5e46d62"
+		},
+		"data/Generated-NA/S-H-CB.txt" : {
+			"checksum" : "1b3548a67398362dc74f17798c3a91a2"
+		},
+		"data/Generated-NA/S-H-CO.txt" : {
+			"checksum" : "1a2077e09d5e9a0e964bc5fe70e9147f"
+		},
+		"data/Generated-NA/S-U-CA.txt" : {
+			"checksum" : "0094a1bdcfa1e3984741cdf33b718882"
+		},
+		"data/Generated-NA/S-U-CB.txt" : {
+			"checksum" : "5d397f1d5d91d4655113f5b541cb1845"
+		},
+		"data/Generated-NA/S-U-CO.txt" : {
+			"checksum" : "4f5f81318ba9c3a94084fe9398a8d2ff"
+		},
+		"data/Generated-NA/T-B-CA.txt" : {
+			"checksum" : "e4d7dbc53bb7e02a0330cb95507fccf8"
+		},
+		"data/Generated-NA/T-B-CB.txt" : {
+			"checksum" : "641e4ca99f25d212a85ffc248ec5c2b0"
+		},
+		"data/Generated-NA/T-B-CO.txt" : {
+			"checksum" : "2d056186c41f4af3f95d15b349d98201"
+		},
+		"data/Generated-NA/T-C-CA.txt" : {
+			"checksum" : "875a74a10daa7defb486130803abc749"
+		},
+		"data/Generated-NA/T-C-CB.txt" : {
+			"checksum" : "34d56fa006e7dd6af6dd24f9ae30e7e7"
+		},
+		"data/Generated-NA/T-C-CO.txt" : {
+			"checksum" : "a550ffc1123471d2ba7ef500f5bce020"
+		},
+		"data/Generated-NA/T-H-CA.txt" : {
+			"checksum" : "154b1e9b4b96fece52223d14259668a2"
+		},
+		"data/Generated-NA/T-H-CB.txt" : {
+			"checksum" : "90ff9397524371eb6f111ad5285c23d1"
+		},
+		"data/Generated-NA/T-H-CO.txt" : {
+			"checksum" : "fbfac98beec5280feacf074fd0683678"
+		},
+		"data/Generated-NA/T-U-CA.txt" : {
+			"checksum" : "5e74c6f689b6c321e27836d98ec93e5c"
+		},
+		"data/Generated-NA/T-U-CB.txt" : {
+			"checksum" : "549ce2ea04541cf8843b0cd4a4bbd91b"
+		},
+		"data/Generated-NA/T-U-CO.txt" : {
+			"checksum" : "297339fc96b84dcdecf3783a9d503694"
+		},
+		"data/Generated-NA/V-B-CA.txt" : {
+			"checksum" : "5216c800afcf605891f3a4b1a62b13b7"
+		},
+		"data/Generated-NA/V-B-CB.txt" : {
+			"checksum" : "99f106c6efeef5dd020ad0e60d57b637"
+		},
+		"data/Generated-NA/V-B-CO.txt" : {
+			"checksum" : "d0ace13dd4b7d67caa28e75227ea5d22"
+		},
+		"data/Generated-NA/V-C-CA.txt" : {
+			"checksum" : "0f1978ed07b671461340278cc5dda87a"
+		},
+		"data/Generated-NA/V-C-CB.txt" : {
+			"checksum" : "ef57a2794451aff9eeeaeb197619294f"
+		},
+		"data/Generated-NA/V-C-CO.txt" : {
+			"checksum" : "6f73e57483ac6568bcaba46f3a855e21"
+		},
+		"data/Generated-NA/V-H-CA.txt" : {
+			"checksum" : "9f9aa610176189a821e1c2ba766480a5"
+		},
+		"data/Generated-NA/V-H-CB.txt" : {
+			"checksum" : "49aeeb658d5962512b1c5a38f50f3b9c"
+		},
+		"data/Generated-NA/V-H-CO.txt" : {
+			"checksum" : "0a046e2aa6b7636ab6e0c564321ebf5b"
+		},
+		"data/Generated-NA/V-U-CA.txt" : {
+			"checksum" : "e9923c300ccd6849286bf1218f4472d6"
+		},
+		"data/Generated-NA/V-U-CB.txt" : {
+			"checksum" : "907b10f4ca81486edd74e2b61f15141e"
+		},
+		"data/Generated-NA/V-U-CO.txt" : {
+			"checksum" : "f49d41487dbadf804b83e13a65be9cec"
+		},
+		"data/Generated-NA/W-B-CA.txt" : {
+			"checksum" : "fe4c14429efe5bb63394d509cfffbcb7"
+		},
+		"data/Generated-NA/W-B-CB.txt" : {
+			"checksum" : "440304cfe4689fd344c94919da14887f"
+		},
+		"data/Generated-NA/W-B-CO.txt" : {
+			"checksum" : "1e9004cd4e324d2cce5447117dc81c3c"
+		},
+		"data/Generated-NA/W-C-CA.txt" : {
+			"checksum" : "00803fe32fce0080e1fae21b268a4263"
+		},
+		"data/Generated-NA/W-C-CB.txt" : {
+			"checksum" : "79437571c73a9ad0a59936df2fe96c4c"
+		},
+		"data/Generated-NA/W-C-CO.txt" : {
+			"checksum" : "b45d1f6fb7ca1f3813522f288599ed42"
+		},
+		"data/Generated-NA/W-H-CA.txt" : {
+			"checksum" : "d5313f75c9e60ee7ef72eb0a8b99e953"
+		},
+		"data/Generated-NA/W-H-CB.txt" : {
+			"checksum" : "6baa51308ebc20ec7071c783642b3607"
+		},
+		"data/Generated-NA/W-H-CO.txt" : {
+			"checksum" : "88ec00a26a07ab812da471d782ab503b"
+		},
+		"data/Generated-NA/W-U-CA.txt" : {
+			"checksum" : "31d945b81ea63ce6c5b63a32f6142e60"
+		},
+		"data/Generated-NA/W-U-CB.txt" : {
+			"checksum" : "28771482047cd5abdd191490377f8fd3"
+		},
+		"data/Generated-NA/W-U-CO.txt" : {
+			"checksum" : "076b11d2819905dad35f4dae19eb4124"
+		},
+		"data/Generated-NA/Y-B-CA.txt" : {
+			"checksum" : "98416226a54746145489d25b02b14e06"
+		},
+		"data/Generated-NA/Y-B-CB.txt" : {
+			"checksum" : "c3b26b024fa1d71c120c568e3d22a8cf"
+		},
+		"data/Generated-NA/Y-B-CO.txt" : {
+			"checksum" : "b44533981e492a4d0a1e49f09ea1c64f"
+		},
+		"data/Generated-NA/Y-C-CA.txt" : {
+			"checksum" : "3071c56b23b9e7443b102d562d899ce2"
+		},
+		"data/Generated-NA/Y-C-CB.txt" : {
+			"checksum" : "ae349a6baf078e9e1f2713d504ec5a1e"
+		},
+		"data/Generated-NA/Y-C-CO.txt" : {
+			"checksum" : "04c203917409499df28ae0dbc79ba3aa"
+		},
+		"data/Generated-NA/Y-H-CA.txt" : {
+			"checksum" : "8386425519e7fc442bb71356557840a1"
+		},
+		"data/Generated-NA/Y-H-CB.txt" : {
+			"checksum" : "8ffd37781e057ed0c6c1a911bed27c85"
+		},
+		"data/Generated-NA/Y-H-CO.txt" : {
+			"checksum" : "a84936d37557a2016311b12b89c7feb6"
+		},
+		"data/Generated-NA/Y-U-CA.txt" : {
+			"checksum" : "1505635f3b480c595d0e5f2ea979e925"
+		},
+		"data/Generated-NA/Y-U-CB.txt" : {
+			"checksum" : "50c5b3064670952c5df3d012d0d340d5"
+		},
+		"data/Generated-NA/Y-U-CO.txt" : {
+			"checksum" : "2e73a56298ef0c82652cd9f43c60cc51"
+		},
+		"data/RefDB.caStat.csv" : {
+			"checksum" : "ca4a049d0dcd3592ad59c48bc94bb8aa"
+		},
+		"data/RefDB.cbStat.csv" : {
+			"checksum" : "eb21c0ef826ea98024485b2eb23c8a26"
+		},
+		"data/RefDB.csv" : {
+			"checksum" : "302ea04deb2efb578ed42b925dbdc178"
+		},
+		"data/RefDB.name.txt" : {
+			"checksum" : "19c6d65dbd4adf2d6967c696dd31c730"
+		},
+		"google-analytics.js" : {
+			"checksum" : "2b1b05ea4d8d532bddd212591a005764"
+		},
+		"RefDB.csv" : {
+			"checksum" : "302ea04deb2efb578ed42b925dbdc178"
+		},
+		"server.R" : {
+			"checksum" : "7acde736c0a58b1cc58327c8d7fe2d50"
+		},
+		"ui.R" : {
+			"checksum" : "1f01e2ece6074498dc9a0cda1ba6f4b4"
+		},
+		"www/.DS_Store" : {
+			"checksum" : "194577a7e20bdcc7afbb718f502c134c"
+		},
+		"www/AA-CS-Dist.png" : {
+			"checksum" : "1e7a6bd2ced2c6aa048b43ba1c5d0b6c"
+		},
+		"www/bitbucket-logo.png" : {
+			"checksum" : "8b7050fa24b3da080d913369b1abea2d"
+		},
+		"www/Icon@2x.png" : {
+			"checksum" : "ce92b76dc3deccb7881aaac1b45de22f"
+		},
+		"www/nortest.png" : {
+			"checksum" : "0afed6652a16fa6c2f437a4a20baf876"
+		},
+		"www/Octocat.png" : {
+			"checksum" : "ef468e275a2c13d0bc7156549261fde6"
+		}
+	},
+	"users" : null
+}
