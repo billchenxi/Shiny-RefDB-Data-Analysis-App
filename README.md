@@ -22,6 +22,11 @@ To change the amino acid or secondary structure or resonance, the user can use t
 
 ### RefDB statistics
 
+![RefDB Statistics](https://github.com/billchenxi/DataProduct/blob/master/images/RefDBStatistics.png)
+
+
+
+
 
 
 
