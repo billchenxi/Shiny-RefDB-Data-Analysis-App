@@ -14,7 +14,15 @@ Therefore, to better understand the RefDB data, I made this app that illustrate 
 ## Instruction:
 The uses are not required to input any values, instead defined values will be give in dropbox or sidebars. 
 
+### RefDB Raw Data
+
 ![RefDB Raw Data](https://github.com/billchenxi/DataProduct/blob/master/images/RefDBRawData.png)
+
+To change the amino acid or secondary structure or resonance, the user can use the dropbox showed in the "Control" panel. 
+
+### RefDB statistics
+
+
 
 
 
