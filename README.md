@@ -14,5 +14,7 @@ Therefore, to better understand the RefDB data, I made this app that illustrate 
 ## Instruction:
 The uses are not required to input any values, instead defined values will be give in dropbox or sidebars. 
 
+![RefDB Raw Data](https://github.com/billchenxi/DataProduct/blob/master/images/RefDBRawData.png)
+
 
 
